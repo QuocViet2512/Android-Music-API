@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    tools:context=".Sub_Category">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/CV_LY"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+
+    android:layout_margin="2dp"
+    app:cardCornerRadius="10dp">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Top_Cate_Nvarbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#009688"
+        app:itemIconTint="@drawable/selected_item"
+        app:menu="@menu/menu_top_category" />
+</androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+android:id="@+id/SCR_CT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/CV_LY"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:overScrollMode="always"
+        android:layout_marginBottom="2dp">
+
+            <LinearLayout
+                android:id="@+id/Cate_Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

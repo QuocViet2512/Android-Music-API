@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14583333333333334" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/drawable/menu_popup.xml" value="0.290625" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/drawable/nvarbar_resorce.xml" value="1.3571428571428572" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/drawable/selected_item.xml" value="0.1484375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_find.xml" value="0.27447916666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_infor_user_app.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_layout_playing.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_newtestjkj.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_play_ly.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_sign_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/activity_test.xml" value="0.2" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/border.xml" value="0.1296875" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/dialog_information_artist.xml" value="0.2" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/dialog_show_listplay.xml" value="0.27447916666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend__sub__cate__list__artist.xml" value="0.11197916666666667" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend__sub__cate__list__song.xml" value="0.11197916666666667" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_cate_list_album.xml" value="0.11197916666666667" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_cate_list_artist.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_cate_list_song.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_find_list_song.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_home_album.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_home_genre.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_home_song_items.xml" value="0.264" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_home_wantohear.xml" value="0.1" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/extend_sub_playlist_pl.xml" value="0.14739583333333334" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/layoutmainrelative.xml" value="0.2604166666666667" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/list_album_cate_item.xml" value="0.11197916666666667" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/list_artist_cate_item.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/list_song_cate_item.xml" value="0.16799999999999998" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/nvarbar_bot.xml" value="0.13489583333333333" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/nvarbar_keep.xml" value="0.2" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/sub_category.xml" value="0.16799999999999998" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/sub_find.xml" value="0.14739583333333334" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/sub_home.xml" value="0.1" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/sub_play.xml" value="0.176" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/sub_playlist.xml" value="0.14375" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/layout/wanttohear_items.xml" value="0.11510416666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/menu/menu_bottomnavi.xml" value="0.27447916666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/menu/menu_popup.xml" value="0.27447916666666666" />
+        <entry key="..\:/MusicAppAndroi/app/src/main/res/menu/menu_top_category.xml" value="0.11197916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

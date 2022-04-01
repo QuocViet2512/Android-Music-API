@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="My Account"
+        android:id="@+id/Account"/>
+    <item
+    android:title="My Playlist"
+    android:id="@+id/Playlist"/>
+    <item android:title="About Us"
+        android:id="@+id/Aboutus"/>
+    <item android:title="Version"
+        android:id="@+id/Version"/>
+    <item android:title="Setting"
+        android:id="@+id/Setting"
+
+        android:icon="@drawable/settingsmedium"
+        />
+     <item android:id="@+id/ConTact"
+        android:title="Contact">
+         <menu>
+             <group>
+                 <item android:title="Phone"
+                     android:id="@+id/CTPhone"/>
+                 <item android:title="Email"
+                     android:id="@+id/CTMail"/>
+                 <item android:title="FaceBook"
+                     android:id="@+id/CTFace"/>
+
+             </group>
+         </menu>
+     </item>
+</menu>

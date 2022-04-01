@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/MainCategory"
+    android:icon="@drawable/categories_16px"
+    android:title="MainCategory"/>
+    <item android:id="@+id/MainPlaying"
+        android:icon="@drawable/play_16px"
+        android:title="Playing"/>
+    <item android:id="@+id/MainHome"
+        android:icon="@drawable/home_16px"
+        android:title="Home"/>
+    <item android:id="@+id/MainPlayList"
+        android:icon="@drawable/heart_16px"
+        android:title="Play List"/>
+    <item android:id="@+id/MainUser"
+        android:icon="@drawable/user_16px"
+        android:title="Account"/>
+</menu>

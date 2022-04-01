@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    tools:context=".Layout_Playing">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3248a8"
+            android:orientation="vertical"
+            android:overScrollMode="always">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_margin="35dp">
+                <TextView
+                    android:id="@+id/TitleSongPlaying"
+                    android:layout_width="match_parent"
+                    android:singleLine = "true"
+                    android:layout_height="wrap_content"
+                    android:text="SongTitle"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#f5f5f5"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:id="@+id/SingerSongPlaying"
+                    android:layout_width="match_parent"
+                    android:singleLine = "true"
+                    android:layout_height="wrap_content"
+                    android:text="SongTitle"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="#f5f5f5"
+                    android:layout_marginBottom="10dp"/>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/ImageSongPlaying"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dreamalittledream"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="5"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:id="@+id/RuntimeSongPlaying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart"
+                        android:text="5:45"
+                        android:layout_weight="0.5"
+                        android:textStyle="bold"
+                        android:textColor="#F0F1E8" />
+                    <SeekBar
+                        android:id="@+id/SeekbarSongPlaying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:id="@+id/DurationSongPlaying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5:45"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold"
+                        android:textColor="#F0F1E8"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="#2f748f"
+                        android:weightSum="3"
+                        android:orientation="horizontal">
+
+
+                        <ImageButton
+
+                            android:id="@+id/ButPrePlaying"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/previous_24px" />
+
+                        <ImageButton
+                            android:id="@+id/But_Play_Pause"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/pause_24px" />
+
+
+
+                        <ImageButton
+                            android:id="@+id/ButNextPlaying"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/next_24px" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/But_Loop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/loop"
+                        app:tint="#f5f5f5" />
+                    <ImageButton
+                        android:id="@+id/But_Random"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/mix"
+                        app:tint="#f5f5f5"/>
+                    <ImageButton
+                        android:id="@+id/But_PlayList"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/playlist"
+                        app:tint="#f5f5f5"/>
+                    <ImageButton
+                        android:id="@+id/But_Information"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/about"
+                        app:tint="#f5f5f5"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Back"
+        app:cornerRadius="15dp" />
+
+
+</LinearLayout>

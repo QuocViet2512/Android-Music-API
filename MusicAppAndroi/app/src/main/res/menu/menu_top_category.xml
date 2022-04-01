@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Albums"
+        android:icon="@drawable/cate_album"
+        android:id="@+id/Top_Cate_Album"/>
+    <item android:title="Artist"
+        android:icon="@drawable/cate_singer"
+        android:id="@+id/Top_Cate_Artist"/>
+    <item android:title="Songs"
+    android:icon="@drawable/cate_song"
+    android:id="@+id/Top_Cate_Songs"/>
+
+
+</menu>
